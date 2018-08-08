@@ -29,11 +29,14 @@ def deluxe_curfew_checker(time)
     puts "You're in trouble!"
   elsif time < 11
     puts "Keep having fun with the time you have left!"
+  else
+    puts "You're on time!"
+  end
+end
   
-    
   
   # code goes here
-end
+
 
 def platinum_curfew_checker(current_time, curfew_time)
   # code goes here
