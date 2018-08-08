@@ -1,12 +1,12 @@
 def simple_curfew_checker(time)
   
-  if time <= 11
+  if time >= 11
     # code goes here
-    puts "You're on time!"
+    puts "You're in trouble!"
 
   elsif time > 11
     # code goes here
-    puts "You're late!"
+    puts "You're in trouble!"
   end
 end
 simple_curfew_checker(9)
