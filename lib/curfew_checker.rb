@@ -18,13 +18,13 @@ def complex_curfew_checker(time)
   elsif time < 11
     puts "You can keep having fun!"
   else time > 11
-    puts "You're in trouble!'"
+    puts "You're in trouble!"
   end
 end
 
 complex_curfew_checker(12)
 
-def deluxe_curfew_checker(time)
+def deluxe_curfew_checker(time, curfew = 11)
   if time > 11
     puts "You're in trouble!"
   elsif time < 11
