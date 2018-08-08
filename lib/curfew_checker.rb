@@ -33,7 +33,8 @@ def deluxe_curfew_checker(time, curfew = 11)
     puts "You have #{curfew - time} hours left."
   end
 end
-  
+
+deluxe_curfew_checker(10)
   
   # code goes here
 
